@@ -1,0 +1,17 @@
+                          Name	                 Friendly Name	                   Description	                          Type	                     Direction	                    Statistics
+                       RawText	                      Raw Text	    Hotel customer review text	                          Text	                       Neutral
+                   WordsVector	                  Words Vector	Hotel customer review words...	                    Collection	                       Neutral
+                     Deceptive	                     Deceptive	Label attribute flag if the...	                       Boolean	                        Target
+             NumberOfSentences	           Number of Sentences	Total number of sentences i...	                       Numeric	                         Input	       [min: 1.00, max: 46.00]
+                 NumberOfWords	               Number Of Words	Total number of words for a...	                       Numeric	                         Input	     [min: 30.00, max: 756.00]
+          NumberOfComplexWords	       Number Of Complex Words	Number of complex words in ...	                       Numeric	                         Input	       [min: 1.00, max: 85.00]
+             NumberOfSyllables	           Number of Syllables	Total number of syllables i...	                       Numeric	                         Input	    [min: 43.00, max: 1114.00]
+            NumberOfCharacters	          Number Of Characters	Total number of Characters ...	                       Numeric	                         Input	   [min: 132.00, max: 3257.00]
+             AvarageWordLength	           Avarage Word Length	Avarage word length in a gi...	                       Numeric	                         Input	        [min: 3.69, max: 5.60]
+     AutomatedReadabilityIndex	   Automated Readability Index	A readability test designed...	                       Numeric	                         Input	       [min: 0.30, max: 49.87]
+               SMOGReadability	              SMOG Readability	A readability that estimate...	                       Numeric	                         Input	       [min: 5.46, max: 22.08]
+          SMOGReadabilityIndex	        SMOG Readability Index	A readability that estimate...	                       Numeric	                         Input	       [min: 5.24, max: 21.17]
+              ColemanLiauIndex	            Coleman Liau Index	A readability test designed...	                       Numeric	                         Input	       [min: 3.04, max: 13.81]
+               GunningFogIndex	             Gunning Fog Index	The index estimates the yea...	                       Numeric	                         Input	       [min: 3.20, max: 45.60]
+ FleschKincaidReadabilityIndex	Flesch-Kincaid Readability ...	 A readability tests design...	                       Numeric	                         Input	       [min: 1.61, max: 41.66]
+        FleschReadabilityIndex	      Flesch Readability Index	 A readability tests design...	                       Numeric	                         Input	     [min: -16.57, max: 93.03]
